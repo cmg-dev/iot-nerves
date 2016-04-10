@@ -56,7 +56,7 @@ background-image: url(img/universe_1.jpg)
 .example_page[
 # Meet the IoT III - Shitty Applications
 
-![bullshit1](/img/bullshit1.jpg)
+![bullshit1](img/bullshit1.jpg)
 ]
 
 ---
