@@ -52,7 +52,9 @@ name: iot
 class: center, middle
 background-image: url(img/iot.jpg)
 
+.heading[
 # Meet the IoT
+]
 
 ---
 name: iot
@@ -277,6 +279,15 @@ tooling
 Cross-compliation can be a total drag. Our tools make it smooth as silk. Go from "mix new" to running code on your device in minutes.
 
 ---
+name: nerves
+class: left
+background-image: url(img/nerves_features.jpg)
+
+.regular[
+
+]
+
+---
 class: left
 background-image: url(img/nerves_build.jpg)
 
@@ -292,12 +303,16 @@ background-image: url(img/bakeware_0.jpg)
 
 # Nerves and Buildroot
 
-Nerves relies upon buildroot to build an embedded distribution
+Nerves relies upon Buildroot to build an embedded distribution
 
 Find it [here](www.buildroot.org).
-
-Buildroot is pain!
 ]
+
+???
+* Buildroot is also pain!
+* Compile time
+* Only Linux
+* fiddling around with VMs
 
 ---
 name: inverse
@@ -391,4 +406,5 @@ background-image: url(img/tv1.jpg)
 
 <i class="fa fa-youtube-play fa-2x"></i> [SumoBots!](https://www.youtube.com/watch?v=tCg1LakJF3g&index=6&list=PLA9E5Lsig6GTBPb2BRf_2ONIcnRTU5Iy0)
 
+<i class="fa fa-youtube-play fa-2x"></i> [Elixir with Nerves](https://www.youtube.com/watch?v=kJYHzxIh_Yc)
 ]
