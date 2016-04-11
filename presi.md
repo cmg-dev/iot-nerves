@@ -215,10 +215,11 @@ background-image: url(img/electronics_1_partitioning.jpg)
 ]
 
 ---
+name: elixir
 class: left
 background-image: url(img/motivation_elixir.jpg)
 
-.right-column[
+.regular[
 ## Quo vadis, Elixir?
 
 ```elixir
@@ -230,18 +231,22 @@ background-image: url(img/motivation_elixir.jpg)
 ]
 
 ---
+name: elixir
 class: left
 background-image: url(img/elixir.jpg)
 
-.right-column[
-## Features
+.regular[
+## Elixir <3 Embedded
 
-```elixir
-  Functional
-  |> Concurrent
-  |> Pragmatic
-  |> Fun
-```
+*  Fault Tolerant
+
+*  Concurrent
+
+*  Fast Garbage Collection
+
+*  Constraint Hardware
+
+*  Binary Protocols
 ]
 
 ---
@@ -395,11 +400,11 @@ bake burn
 
 * learned stuff
 ---
-name: inverse
+name: video
 class: left
 background-image: url(img/tv1.jpg)
 
-.example_page[
+.regular[
 <i class="fa fa-youtube-play fa-2x"></i> [Embedded Elixir in Action](https://www.youtube.com/watch?v=kpzQrFC55q4)
 
 <i class="fa fa-youtube-play fa-2x"></i> [Getting Started with Nerves](https://www.youtube.com/watch?v=kWXrct6nnGg)
