@@ -31,26 +31,28 @@ background-image: url(img/motivation.jpg)
 
 .regular[
 # Motivation
-
 ]
 
 .footnote[
-**Read the [Paper](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=PM&subtype=XB&htmlfid=GBE03620USEN)**
+**Read the** [Paper](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=PM&subtype=XB&htmlfid=GBE03620USEN)
 ]
 ???
 
 ---
-name: iot
+name: motivation
 class: left
-background-image: url(img/iot.jpg)
+background-image: url(img/motivation_elixir.jpg)
 
 .regular[
-## Meet the IoT I - Problems
-
-trust bla bla...
-
-Internet of Bullshit reference...
+# Elixir
 ]
+
+---
+name: iot
+class: center, middle
+background-image: url(img/iot.jpg)
+
+# Meet the IoT
 
 ---
 name: iot
@@ -58,8 +60,34 @@ class: left
 background-image: url(img/iot_development.jpg)
 
 .regular[
-## Worlds Collide
+## Forecast
 ]
+.right-column[
+
+Device democracy will emerge,
+
+... after rebooting the IoT
+]
+
+.footnote[
+[[1](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=PM&subtype=XB&htmlfid=GBE03620USEN)]
+]
+
+???
+Why the IoT already needs a reboot:
+
+* First wave of the IoT; focused on very high-value applications
+
+    jet engines, automated smart meters and remote healthcare management
+
+* Demand has been slow
+* Only **30 percent** of heavy industrial equipment is networked
+* Only **10 percent** of smart TVs are used for Internet viewing
+
+* consumers have failed to embrace devices from smart toothbrushes to refrigerators.
+
+* Enterprises and entrepreneurs treating the IoT as if it were **just another** computing platform
+* Applying the same set of business models, services, ecosystems, applications and analytic.
 
 ---
 name: iot
@@ -69,16 +97,37 @@ background-image: url(img/iot_comparison.jpg)
 .regular[
 ## Worlds Collide
 ]
+
+.footnote[
+[[2](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=PM&subtype=XB&htmlfid=GBE03620USEN)]
+]
+
 ???
-The application of old world approaches to this field.
+* The application of old world approaches to this field
 
-Apply "as a Service" does not increase product quality
+* Apply "as a Service" does not increase product quality
 
+* IOT isn't new
 
 ---
 name: iot
 class: left
-background-image: url(img/universe_1.jpg)
+background-image: url(img/iot_problems.jpg)
+
+.regular[
+]
+
+???
+1. High costs
+2. Broken Buisiness Models
+3. Trust
+4. Not Future Proof
+5. Function
+
+---
+name: iot
+class: left
+background-image: url(img/mr_tomatan.jpg)
 
 .regular[
 ## Use Cases
@@ -86,6 +135,9 @@ background-image: url(img/universe_1.jpg)
 ![bullshit1](img/bullshit1.jpg)
 ]
 
+.footnote[
+<i class="fa fa-twitter-square fa-2x"></i> [@Internet of Shit](https://twitter.com/internetofshi://twitter.com/internetofshit)
+]
 ---
 name: iot
 class: left
@@ -95,10 +147,14 @@ background-image: url(img/iot_design_rules.jpg)
 ## Design Rules
 ]
 
+.footnote[
+[[3](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=PM&subtype=XB&htmlfid=GBE03620USEN)]
+]
+
 ---
-name: regular
+name: iot
 class: left
-background-image: url(img/bg1.png)
+background-image: url(img/iot.jpg)
 
 .right-column[
 
@@ -111,16 +167,16 @@ that will enable new digital economies and create new
 value, while offering consumers and enterprises
 fundamentally better products and user experiences.
 ```
+
+Well, and how?
 ]
 
----
-name: regular
-class: left
-background-image: url(img/bg1.png)
-
-.right-column[
-# End of chapter I
+.footnote[
+[[4](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=PM&subtype=XB&htmlfid=GBE03620USEN)]
 ]
+
+???
+* End of chapter 1
 
 ---
 name: nerves
@@ -158,10 +214,10 @@ background-image: url(img/electronics_1_partitioning.jpg)
 
 ---
 class: left
-background-image: url(img/universe_0.jpg)
+background-image: url(img/motivation_elixir.jpg)
 
 .right-column[
-## Y Elixir?
+## Quo vadis, Elixir?
 
 ```elixir
   Functional
@@ -170,6 +226,29 @@ background-image: url(img/universe_0.jpg)
   |> Fun
 ```
 ]
+
+---
+class: left
+background-image: url(img/elixir.jpg)
+
+.right-column[
+## Features
+
+```elixir
+  Functional
+  |> Concurrent
+  |> Pragmatic
+  |> Fun
+```
+]
+
+---
+class: left
+background-image: url(img/elixir_prompt.jpg)
+
+---
+class: left
+background-image: url(img/elixir_proposal.jpg)
 
 ---
 name: nerves
@@ -266,6 +345,14 @@ background-image: url(img/solo_0.jpg)
 **Demo time...**
 ]
 
+???
+
+* More Doing less talking
+
+* Lots of demos on the internet
+
+1. nerves-io-led
+
 ---
 name: inverse
 class: left
@@ -275,20 +362,27 @@ background-image: url(img/tools_0.jpg)
 # Using bakeware
 
 **Compile firmware**
+
 ```elixir
 bake firmware
 ```
 
 **Burn to SD**
+
 ```elixir
 bake burn
 ```
 ]
 
+???
+
+* What have we seen?
+
+* learned stuff
 ---
 name: inverse
 class: left
-background-image: url(img/videos.jpg)
+background-image: url(img/tv1.jpg)
 
 .example_page[
 <i class="fa fa-youtube-play fa-2x"></i> [Embedded Elixir in Action](https://www.youtube.com/watch?v=kpzQrFC55q4)
