@@ -138,7 +138,7 @@ background-image: url(img/mr_tomatan.jpg)
 ]
 
 .footnote[
-<i class="fa fa-twitter-square fa-2x"></i> [@Internet of Shit](https://twitter.com/internetofshi://twitter.com/internetofshit)
+<i class="fa fa-twitter-square fa-2x"></i> [@Internet of Shit](https://twitter.com/internetofshit)
 ]
 ---
 name: iot
@@ -310,7 +310,7 @@ background-image: url(img/bakeware_0.jpg)
 
 Nerves relies upon Buildroot to build an embedded distribution
 
-Find it [here](www.buildroot.org).
+Find it [here](https://www.buildroot.org).
 ]
 
 ???
