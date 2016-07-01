@@ -126,6 +126,21 @@ background-image: url(img/iot_problems.jpg)
 4. Not Future Proof
 5. Function
 
+Why the IoT already needs a reboot:
+
+* First wave of the IoT; focused on very high-value applications
+
+    jet engines, automated smart meters and remote healthcare management
+
+* Demand has been slow
+* Only **30 percent** of heavy industrial equipment is networked
+* Only **10 percent** of smart TVs are used for Internet viewing
+
+* consumers have failed to embrace devices from smart toothbrushes to refrigerators.
+
+* Enterprises and entrepreneurs treating the IoT as if it were **just another** computing platform
+* Applying the same set of business models, services, ecosystems, applications and analytic.
+
 ---
 name: iot
 class: left
@@ -163,11 +178,11 @@ background-image: url(img/iot.jpg)
 **IBM's conclusion**
 
 ``` plain
-This first report of our study shows that a low-cost,
+"This first report of our study shows that a low-cost,
 private-by-design “democracy of devices” will emerge
 that will enable new digital economies and create new
 value, while offering consumers and enterprises
-fundamentally better products and user experiences.
+fundamentally better products and user experiences."
 ```
 
 Well, and how?
@@ -248,14 +263,10 @@ background-image: url(img/elixir.jpg)
 
 *  Binary Protocols
 ]
-
 ---
+name: nerves
 class: left
-background-image: url(img/elixir_prompt.jpg)
-
----
-class: left
-background-image: url(img/elixir_proposal.jpg)
+background-image: url(img/nerves_intro0.jpg)
 
 ---
 name: nerves
@@ -293,31 +304,20 @@ background-image: url(img/nerves_features.jpg)
 ]
 
 ---
+name: nerves
+class: left
+background-image: url(img/nerves_targets.jpg)
+
+.regular[
+
+]
+
+---
 class: left
 background-image: url(img/nerves_build.jpg)
 
 .right-column[
 ]
-
----
-name: inverse
-class: left
-background-image: url(img/bakeware_0.jpg)
-
-.example_page[
-
-# Nerves and Buildroot
-
-Nerves relies upon Buildroot to build an embedded distribution
-
-Find it [here](https://www.buildroot.org).
-]
-
-???
-* Buildroot is also pain!
-* Compile time
-* Only Linux
-* fiddling around with VMs
 
 ---
 name: inverse
@@ -336,21 +336,93 @@ Find it [here](http://www.bakeware.io/)
 ]
 
 ---
+
+name: inverse
+class: left, middle
+background-image: url(img/extinct.jpg)
+
+.example_page_left[
+# Bakeware's gone
+
+**Good News!**
+
+**Everythong is now integrated into ```mix```...**
+
+]
+
+---
 name: inverse
 class: left
-background-image: url(img/tools_0.jpg)
+background-image: url(img/extinct.jpg)
 
 .example_page[
-# Using bakeware
+# Using mix
 
-**Download a system**
+**Start a project**
+
 ```elixir
-bake system get
+$ mix nerves.new my_project --target rpi3
 ```
 
-**Download a toolchain**
+**Does the boilerplate**
+
 ```elixir
-bake toolchain get
+creating my_project/config/config.exs
+creating my_project/lib/my_app.ex
+creating my_project/test/test_helper.exs
+creating my_project/test/my_app_test.exs
+creating my_project/rel/vm.args
+creating my_project/rel/.gitignore
+creating my_project/.gitignore
+creating my_project/mix.exs
+creating my_project/README.md
+```
+]
+
+---
+name: inverse
+class: left
+background-image: url(img/extinct.jpg)
+
+.example_page[
+**Compile**
+
+```elixir
+$ mix compile
+Nerves Precompile Start
+...
+Compile Nerves toolchain
+Downloading from Github Cache
+Unpacking toolchain to build dir
+...
+Generated nerves_system_rpi3 app
+[nerves_system][compile]
+[nerves_system][http] Downloading system from cache
+[nerves_system][http] System Downloaded
+[nerves_system][http] Unpacking System
+...
+Nerves Env loaded
+Nerves Precompile En
+```
+]
+
+---
+name: inverse
+class: left
+background-image: url(img/extinct.jpg)
+
+.example_page[
+**Create Firmware**
+
+```elixir
+$ mix firmware
+Nerves Env loaded
+Nerves Firmware Assembler
+...
+Building _images/rpi3/my_project.fw...
+
+$ mix firmware.burn
+Burn rpi3-0.0.1 to SD card at /dev/rdisk3, Proceed? [Y/n]
 ```
 ]
 
@@ -376,29 +448,11 @@ background-image: url(img/solo_0.jpg)
 ---
 name: inverse
 class: left
-background-image: url(img/tools_0.jpg)
+background-image: url(img/elixir_nerves_phonix.jpg)
 
 .example_page[
-# Using bakeware
-
-**Compile firmware**
-
-```elixir
-bake firmware
-```
-
-**Burn to SD**
-
-```elixir
-bake burn
-```
 ]
 
-???
-
-* What have we seen?
-
-* learned stuff
 ---
 name: video
 class: left
